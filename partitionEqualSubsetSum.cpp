@@ -9,7 +9,7 @@ public:
             total += nums[i];
         }
         
-        //false if even
+        //false if not even
         if (total % 2 != 0){
             return false;
         } 
